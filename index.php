@@ -9,7 +9,7 @@ require_once("controller/facturas.php");
 require_once("controller/lineas.php"); // <-- Añadido controlador de líneas
 require_once("controller/recibosControlador.php");
 
-
+// linea editada para punto 10 reto 3.1
 $controlador = '';
 if (isset($_GET['c'])):
     $controlador = $_GET['c'];
