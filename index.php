@@ -1,3 +1,5 @@
+
+
 <?php
 if (session_status() === PHP_SESSION_NONE)
     session_start();
@@ -6,10 +8,10 @@ require_once("config.php");
 require_once("controller/app.php");
 require_once("controller/clientes.php");
 require_once("controller/facturas.php");
-require_once("controller/lineas.php"); // <-- Añadido controlador de líneas
+require_once("controller/lineas.php"); 
 require_once("controller/recibosControlador.php");
 
-
+// comentario para reto 3.1
 $controlador = '';
 if (isset($_GET['c'])):
     $controlador = $_GET['c'];

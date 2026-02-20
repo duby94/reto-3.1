@@ -14,6 +14,7 @@
 </thead>
 <tbody>
 <?php
+// comentario para reto 3.1
 if (isset($clientes) && $clientes->filas) :
     foreach ($clientes->filas as $fila) :
 ?>
