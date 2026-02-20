@@ -3,6 +3,7 @@ require_once("model/bd.php");
 
 class FacturasModelo extends BD
 {
+    // CAMBIO 4
     public $id;
     public $cliente_id;
     public $numero;
