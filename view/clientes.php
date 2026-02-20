@@ -39,7 +39,7 @@ endif;
 <tr>
     <td colspan="4">
         <a href="index.php?c=clientes&m=nuevo">
-        <button type="button" class="btn btn-primary">Nuevo</button>
+        <button type="button" class="btn btn-primary">NUEVO</button>
         </a>
     </td>
 </tr>
